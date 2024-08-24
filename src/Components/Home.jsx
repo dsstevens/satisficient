@@ -6,8 +6,12 @@ import Statement from './Statement.jsx'
 
 const Home = () => {
   return ( 
-    
-    <div>Satisficient is live, baby!</div>
+    <div>
+      <header>{ Header }</header>
+      <section>{ Statement }</section>
+      <section>{ Offerings }</section>
+      <footer>{ Footer }</footer>
+    </div>
   )
 }
 

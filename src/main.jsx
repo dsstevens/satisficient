@@ -9,7 +9,7 @@ import './index.css'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App><Home /></App> 
+    element: <App>{ Home }</App> 
   },
 ])
 
