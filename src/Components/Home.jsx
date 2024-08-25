@@ -7,12 +7,18 @@ import Statement from './Statement.jsx'
 const Home = () => {
   return ( 
     <div>
-      <header>{ Header }</header>
-      <section>{ Statement }</section>
-      <section>{ Offerings }</section>
-      <footer>{ Footer }</footer>
+      <Header />
+      <Statement />
+      <Offerings />
+      <Footer />
     </div>
   )
 }
 
 export default Home
+
+//     <header>{ Header }</header>
+//     <section>{ Statement }</section>
+//     <section>{ Offerings }</section>
+//     <footer>{ Footer }</footer>
+// This makes React think we're trying to show the raw component function, not render it. 

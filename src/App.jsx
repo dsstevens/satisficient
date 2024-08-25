@@ -1,15 +1,14 @@
+import React from 'react';
+import { Outlet } from 'react-router-dom';
 import "./App.css";
-import Home from './Components/Home'
 import './index.css'
 
 function App() {
-	
-
-	return (
-		<>
-      <main>{ Home }</main>
-		</>
-	);
+  return (
+    <>
+      <Outlet />
+    </>
+  );
 }
 
 export default App;
