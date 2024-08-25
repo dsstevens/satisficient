@@ -16,9 +16,3 @@ const Home = () => {
 }
 
 export default Home
-
-//     <header>{ Header }</header>
-//     <section>{ Statement }</section>
-//     <section>{ Offerings }</section>
-//     <footer>{ Footer }</footer>
-// This makes React think we're trying to show the raw component function, not render it. 
