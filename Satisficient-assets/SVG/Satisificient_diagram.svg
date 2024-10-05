@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: DMSerifDisplay-Regular, 'DM Serif Display';
+        font-size: 40.48px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        font-family: Barlow-Regular, Barlow;
+        font-size: 24.69px;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke-dasharray: 0 0 0 0 0 0 0 12 0 12 0 12;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke: #fff;
+      }
+
+      .cls-7 {
+        fill: #00a4ff;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        fill: #ffc803;
+      }
+
+      .cls-9 {
+        fill: #53f895;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0em;
+      }
+
+      .cls-12 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0em;
+      }
+
+      .cls-14 {
+        letter-spacing: 0em;
+      }
+
+      .cls-15 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-16 {
+        letter-spacing: 0em;
+      }
+
+      .cls-17 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <text class="cls-3" transform="translate(352 268.26)"><tspan class="cls-12" x="0" y="0">B</tspan><tspan x="15.13" y="0">usi</tspan><tspan class="cls-13" x="46.54" y="0">n</tspan><tspan class="cls-4" x="59.67" y="0">e</tspan><tspan class="cls-15" x="72.61" y="0">s</tspan><tspan x="84.12" y="0">s</tspan></text>
+        <text class="cls-3" transform="translate(335.07 68.98)"><tspan class="cls-10" x="0" y="0">S</tspan><tspan class="cls-14" x="14.37" y="0">a</tspan><tspan x="26.89" y="0">ti</tspan><tspan class="cls-11" x="42.17" y="0">s</tspan><tspan class="cls-5" x="54.02" y="0">f</tspan><tspan class="cls-1" x="62.37" y="0">action</tspan></text>
+        <text class="cls-3" transform="translate(148.4 649.18)"><tspan x="0" y="0">Efficie</tspan><tspan class="cls-13" x="70.41" y="0">n</tspan><tspan class="cls-16" x="83.55" y="0">c</tspan><tspan x="96.26" y="0">y</tspan></text>
+        <text class="cls-3" transform="translate(211.44 470.18)"><tspan x="0" y="0">D</tspan><tspan class="cls-4" x="15.26" y="0">e</tspan><tspan x="28.2" y="0">sign</tspan></text>
+        <text class="cls-3" transform="translate(493.08 470.18)"><tspan x="0" y="0">C</tspan><tspan class="cls-17" x="14.99" y="0">re</tspan><tspan class="cls-14" x="36.89" y="0">a</tspan><tspan x="49.4" y="0">tivity</tspan></text>
+        <circle class="cls-6" cx="400" cy="305.21" r="136.23"/>
+        <circle class="cls-9" cx="166.33" cy="250.98" r="60.4"/>
+        <circle class="cls-7" cx="637.2" cy="250.98" r="60.4"/>
+        <circle class="cls-8" cx="400" cy="679.52" r="60.4"/>
+        <circle class="cls-6" cx="400" cy="400" r="399"/>
+        <circle class="cls-6" cx="302.12" cy="459.96" r="136.23"/>
+        <circle class="cls-6" cx="500.52" cy="459.96" r="136.23"/>
+      </g>
+      <g>
+        <text class="cls-2" transform="translate(640.18 646.1)"><tspan x="0" y="0">:</tspan></text>
+        <text class="cls-2" transform="translate(652.26 648.05)"><tspan x="0" y="0">)</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

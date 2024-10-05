@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 884.63 170.82">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2 {
+        font-size: 124px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        font-family: DMSerifDisplay-Regular, 'DM Serif Display';
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        font-size: 156px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <text class="cls-3" transform="translate(0 129.48)"><tspan x="0" y="0">Sati</tspan><tspan class="cls-5" x="262.08" y="0">s</tspan><tspan class="cls-4" x="329.78" y="0">ficie</tspan><tspan class="cls-6" x="620.4" y="0">n</tspan><tspan class="cls-7" x="709.79" y="0">t</tspan></text>
+  </g>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <text class="cls-1" transform="translate(802 110.48)"><tspan x="0" y="0">:</tspan></text>
+    <text class="cls-2" transform="translate(839 116.48)"><tspan x="0" y="0">)</tspan></text>
+  </g>
+</svg>
