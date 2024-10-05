@@ -1,5 +1,5 @@
 import React from 'react'
-import Statement from './Statement'
+import Statement from '../src/Components/Statement'
 
 describe('<Statement />', () => {
   it('renders', () => {

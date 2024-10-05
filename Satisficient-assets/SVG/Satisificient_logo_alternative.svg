@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 756.75 212.01">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        font-family: DMSerifDisplay-Regular, 'DM Serif Display';
+        font-size: 154.1px;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <path class="cls-5" d="m377.44,212.01c-61.11,0-110.49-17.71-142.86-33.91-2.49-1.25-3.47-4.3-2.18-6.77h0c1.26-2.43,4.23-3.38,6.67-2.16,32.99,16.5,84.19,34.62,147.65,32.7,44.47-1.35,88.96-12.64,128.98-32.71,2.43-1.22,5.39-.25,6.65,2.17,1.3,2.49.29,5.54-2.21,6.8-38.52,19.3-81.04,30.74-123.82,33.32-3.1.19-6.2.33-9.3.42-3.22.1-6.43.15-9.59.15Z"/>
+    <text class="cls-2" transform="translate(0 127.9)"><tspan x="0" y="0">Sati</tspan><tspan class="cls-3" x="258.88" y="0">s</tspan><tspan x="325.75" y="0">ficie</tspan><tspan class="cls-4" x="612.83" y="0">n</tspan><tspan class="cls-1" x="701.13" y="0">t</tspan></text>
+  </g>
+</svg>
