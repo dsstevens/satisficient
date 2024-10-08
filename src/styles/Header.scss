@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: right;
+  padding: 1rem;
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+
+    li a {
+      color: #000000;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s ease;
+
+      &:hover {
+        color: #1fb0ff;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 100%;
+  padding: 1rem;
+  border-right: .5px solid #000000;
+  z-index: 1000;
+  font-size: 1.2rem;
+
+  p {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #1fb0ff;
+      cursor: pointer;
+    }
+  }
+}
+
+.content {
+  padding: 0rem 3rem;
+  overflow-y: auto;
+}
+
+.offerings-section {
+  padding: 1rem;
+}
+
+.contact-section {
+  padding: 1rem;
+}
+
+@media (min-width: 768px) {
+  .header {
+    justify-content: flex-end;
+    padding: 2.5rem 3rem;
+
+    nav ul {
+      gap: 2rem;
+
+      li a {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .sidebar {
+    width: 60px;
+    padding: 2rem;
+    font-size: 2rem;
+  }
+
+  .content {
+    margin-left: 140px;
+    margin-right: 80px;
+  }
+}

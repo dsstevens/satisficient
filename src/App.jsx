@@ -1,6 +1,6 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import '../src/styles/App.scss'
+import React from "react";
+import { Outlet } from "react-router-dom";
+import "../src/styles/App.scss";
 
 function App() {
   return (
