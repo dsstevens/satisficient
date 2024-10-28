@@ -1,12 +1,6 @@
 import React from "react";
 import "../styles/Header.scss";
 
-const Sidebar = () => (
-  <div className="sidebar">
-    <p onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>S :)</p>
-  </div>
-);
-
 const Header = () => {
   const handleScroll = (id) => {
     const element = document.getElementById(id);
@@ -34,4 +28,4 @@ const Header = () => {
   );
 };
 
-export { Sidebar, Header };
+export default Header ;

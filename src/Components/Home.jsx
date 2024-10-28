@@ -1,6 +1,6 @@
 import React from "react";
 import Contact from "./Contact.jsx";
-import { Header, Sidebar } from "./Header.jsx";
+import Header from "./Header.jsx";
 import Offerings from "./Offerings.jsx";
 import Statement from "./Statement.jsx";
 import "../styles/Home.scss";
@@ -8,7 +8,6 @@ import "../styles/Home.scss";
 const Home = () => {
   return (
     <div className="home">
-      <Sidebar />
       <div className="main-content">
         <Header />
         <div className="content">

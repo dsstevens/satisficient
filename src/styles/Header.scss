@@ -24,27 +24,15 @@
   }
 }
 
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 18px;
-  height: 100%;
-  padding: 1rem;
-  border-right: .5px solid #000000;
-  z-index: 1000;
-  font-size: 1.2rem;
+p {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
 
-  p {
-    margin: 0;
-    padding: 0;
+  &:hover {
+    color: #1fb0ff;
     cursor: pointer;
-    transition: color 0.2s ease;
-
-    &:hover {
-      color: #1fb0ff;
-      cursor: pointer;
-    }
   }
 }
 
@@ -73,12 +61,6 @@
         font-size: 1rem;
       }
     }
-  }
-
-  .sidebar {
-    width: 60px;
-    padding: 2rem;
-    font-size: 2rem;
   }
 
   .content {
