@@ -1,0 +1,23 @@
+.offerings {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: .75rem;
+}
+
+.offerings-section {
+    padding: 1rem;
+}
+
+.offerings-image {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+@media (min-width: 1024px) {
+    .offerings {
+
+    }
+}

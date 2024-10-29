@@ -3,7 +3,7 @@ import Contact from "./Contact.jsx";
 import Header from "./Header.jsx";
 import Offerings from "./Offerings.jsx";
 import Statement from "./Statement.jsx";
-import "../styles/Home.scss";
+import "../styles/App.scss";
 
 const Home = () => {
   return (

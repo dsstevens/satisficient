@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   padding: 1rem;
 
   nav ul {
@@ -13,7 +13,7 @@
     li a {
       color: #000000;
       text-decoration: none;
-      font-size: 0.9rem;
+      font-size: 1.5rem;
       transition: color 0.2s ease;
 
       &:hover {
@@ -36,23 +36,11 @@ p {
   }
 }
 
-.content {
-  padding: 0rem 3rem;
-  overflow-y: auto;
-}
-
-.offerings-section {
-  padding: 1rem;
-}
-
-.contact-section {
-  padding: 1rem;
-}
 
 @media (min-width: 1024px) {
   .header {
     justify-content: flex-end;
-    padding: 2.5rem 3rem;
+    padding: 1rem;
 
     nav ul {
       gap: 2rem;
@@ -63,8 +51,4 @@ p {
     }
   }
 
-  .content {
-    margin-left: 140px;
-    margin-right: 80px;
-  }
 }
