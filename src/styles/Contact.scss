@@ -1,4 +1,8 @@
 .contact-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding-bottom: 3rem;
 }
 
@@ -9,17 +13,29 @@
 .contact-button {
   background-color: white;
   padding: .75rem 1rem;
+  border: 2px solid black;
+  transform: translateY(0);
+  transition: transform 0.1s ease-in-out;
+}
+
+.contact-button:active {
+  transform: translateY(2px);
+  border-color: #999999;
 }
 
 .contact-description {
-  // padding-bottom: .75rem;
   font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {
 
   .contact-section {
     padding-bottom: 3rem;
+    align-items: flex-start;
   }
 
   .contact-header {
@@ -27,8 +43,9 @@
   }
 
   .contact-button {
-    background-color: white;
-    padding: 1rem 1.5rem;
+    background-color: #FFFFFF;
+    padding: .75rem 1.5rem;
+    width: 20%;
   }
 
   .contact-description {
