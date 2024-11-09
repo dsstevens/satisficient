@@ -1,3 +1,38 @@
 .contact-section {
-    padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+.contact-header {
+  font-size: 2rem;
+}
+
+.contact-button {
+  background-color: white;
+  padding: .75rem 1rem;
+}
+
+.contact-description {
+  // padding-bottom: .75rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 1024px) {
+
+  .contact-section {
+    padding-bottom: 3rem;
   }
+
+  .contact-header {
+    font-size: 3rem;
+  }
+
+  .contact-button {
+    background-color: white;
+    padding: 1rem 1.5rem;
+  }
+
+  .contact-description {
+    // padding-bottom: .75rem;
+    font-size: 1.25rem;
+  }
+}

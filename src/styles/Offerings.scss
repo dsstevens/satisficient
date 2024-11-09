@@ -1,23 +1,70 @@
 .offerings {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    font-size: .75rem;
+    font-size: 1rem;
+    gap: 1rem;
+    padding: 2rem 0;
+
 }
 
-.offerings-section {
+.offerings-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 1rem;
+
+    h1 {
+        margin: 0.5rem 0;
+    }
 }
 
 .offerings-image {
     display: flex;
-    justify-content: space-between;
-    max-width: 50%;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+
+    img {
+        width: 100%;
+        max-width: 400px;
+    }
 }
 
 @media (min-width: 1024px) {
     .offerings {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
 
+    .offerings-title {
+        padding-bottom: 1rem;
+    }
+
+    .offerings-image {
+        width: 75%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0;
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .offerings-list {
+        width: 60%;
+        padding: 2rem;
+        padding-top: -1rem;
+        align-items: flex-start;
+        text-align: left;
+        font-size: 1.25rem;
     }
 }

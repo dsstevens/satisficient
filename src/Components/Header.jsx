@@ -13,11 +13,11 @@ const Header = () => {
     <header className="header">
       <nav>
         <ul>
+          {/* <li>
+            <a onClick={() => handleScroll("statement")}>Us</a>
+          </li> */}
           <li>
-            <a onClick={() => handleScroll("statement")}>Work</a>
-          </li>
-          <li>
-            <a onClick={() => handleScroll("offerings")}>About</a>
+            <a onClick={() => handleScroll("offerings")}>Offerings</a>
           </li>
           <li>
             <a onClick={() => handleScroll("contact")}>Contact</a>
