@@ -5,6 +5,7 @@ body {
   font-family: 'Antic Didone', serif;
   background-color: #FFFFFF;
   color: #000000;
+  overflow-x: hidden;
 }
 
 #root {
@@ -12,6 +13,10 @@ body {
   margin: auto;
 }
 
+.main-content {
+  margin: 0;
+  padding: 0 1rem;
+}
 
 @media (min-width: 1024px) {
   body {
@@ -20,5 +25,10 @@ body {
 
   #root {
     max-width: 1280px;
+  }
+
+  .main-content {
+    padding: 0rem 3rem;
+    overflow-y: auto;
   }
 }

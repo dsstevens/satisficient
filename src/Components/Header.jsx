@@ -1,12 +1,6 @@
 import React from "react";
 import "../styles/Header.scss";
 
-const Sidebar = () => (
-  <div className="sidebar">
-    <p onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>S :)</p>
-  </div>
-);
-
 const Header = () => {
   const handleScroll = (id) => {
     const element = document.getElementById(id);
@@ -19,11 +13,11 @@ const Header = () => {
     <header className="header">
       <nav>
         <ul>
+          {/* <li>
+            <a onClick={() => handleScroll("statement")}>Us</a>
+          </li> */}
           <li>
-            <a onClick={() => handleScroll("statement")}>Work</a>
-          </li>
-          <li>
-            <a onClick={() => handleScroll("offerings")}>About</a>
+            <a onClick={() => handleScroll("offerings")}>Offerings</a>
           </li>
           <li>
             <a onClick={() => handleScroll("contact")}>Contact</a>
@@ -34,4 +28,4 @@ const Header = () => {
   );
 };
 
-export { Sidebar, Header };
+export default Header ;

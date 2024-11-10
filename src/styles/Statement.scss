@@ -1,0 +1,60 @@
+.statement-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 90vh;
+  padding: 1rem;
+}
+
+.statement {
+  text-align: left;
+  margin-top: 0rem;
+
+  h1 {
+    margin: 0 0 0.8rem 0;
+    font-size: 3rem;
+  }
+
+  h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    margin: 0 0 1.75rem 0;
+    font-size: 1.25rem;
+    width: 90%;
+    line-height: 1.4;
+  }
+
+  h4 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+}
+
+.statement-line {
+  border-top: 1px solid #000000;
+  margin: 0.5rem 0 1.5rem;
+  width: 90%;
+}
+
+@media (min-width: 1024px) {
+  .statement {
+    h1 {
+      font-size: 5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    h4 {
+      font-size: 1.75rem;
+    }
+  }
+}
